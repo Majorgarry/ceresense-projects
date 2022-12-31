@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(to right, white, #d8e1ff);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 50px;
+}
+ul li{
+    margin-right: 130px;
+    margin-top: 10px;
+}
+
+#log{
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px  grey;
+}
+#sign{
+    width: 150px;
+    background-color: #2D5DFE;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.main-content{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.head h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #2D5DFE;
+}
+div.body{
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 50%;
+}
+.body h2{
+    font-size: 40px;
+}
+.body h1{
+   font-size: 70px; 
+   color: #2D5DFE;
+}
+.body p{
+    font-size: 14px;
+}
+.buttons{
+    display: flex;
+    margin-top: 40px;
+}
+#first-button{
+    border: 2px solid black;
+    margin-right: 15px;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px  grey;
+}
+#first-button img{
+    width: 30px;
+    height: 30px;  
+}
+#second-button{
+    display: flex;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #2D5DFE;
+    color: white;
+    border: none;
+    
+}
+#second-button img{
+    width:30px;
+    height:30px;
+}
+#second-button p{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+}
+.star{
+    position: relative;
+}
+.star img{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+.star p{
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    width: 100%;
+}
+.body-img{
+    width: 50%;
+    
+}
+.body-img img{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    position: absolute;
+    right: 300px;
+    top: 80px; 
+    z-index: 1;  
+}
+.border{
+    width: 350px;
+    height: 550px;
+    border: 2px solid grey;
+    position: absolute;
+    right: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+}
+
